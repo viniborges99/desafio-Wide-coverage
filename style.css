@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: 47px 0 150px 76px;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    text-align: center;
+    letter-spacing: 0.875px;
+    margin-right: 36px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #daffcd6e;
+    padding: 5px;
+    width: 35px;
+    border-radius: 5px;
+}
+
+.button-login {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    height: 51px;
+    width: 124px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+img {
+    width: 495.18px;
+    height: 400px;
+    margin-left: 121px;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+h1 {
+    height: 164px;
+    width: 582px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    height: 99px;
+    width: 493px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 30px 0;
+   
+}
+
+.button-saiba {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    height: 41px;
+    width: 124px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+@media (max-width:700px) {
+    a {
+        display: none;
+    }
+    .button-login {
+        position: relative;
+        left: 200px;
+    }
+    header{
+        margin: 20px 0 88px 76px;
+    }
+    
+
+    img {
+        width: 300px;
+        height: 300px;
+        margin-left: 35px;
+    }
+    section{
+        display: block;
+        margin: 0;
+    }
+
+
+    h1 {
+        height: 104px;
+        width: 280px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 52px;
+        letter-spacing: 0.596154px;
+        margin: 0 auto;
+    }
+
+    p {
+        height: 99px;
+        width: 280px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+    .button-saiba {
+        height: 41px;
+        width: 124px;
+        display: block;
+        margin:0 auto;
+
+    }
+}
